@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BERKAH LAUNDRY - Bersih, Rapi, Wangi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="nav">
+    <a href="#home" class="brand">
+      <!-- LOGO: images/logo-berkah-laundry.png -->
+      <img src="images/logo-berkah-laundry.png" alt="Logo Berkah Laundry">
+      <span>BERKAH LAUNDRY</span>
+    </a>
+    <button id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+    <nav id="menu">
+      <a href="#home">Home</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#harga">Harga</a>
+      <a href="#express">Express</a>
+      <a href="#jemput">Antar Jemput</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="bubble" style="left:6%;top:24%"></span>
+    <span class="bubble s" style="left:48%;top:78%"></span>
+    <span class="bubble" style="left:90%;top:10%"></span>
+
+    <div class="hero-txt reveal">
+      <img class="hero-logo" src="images/logo-berkah-laundry.png" alt="Logo Berkah Laundry">
+      <p class="eyebrow">BERKAH LAUNDRY</p>
+      <h1>BERSIH, RAPI, <em>WANGI</em></h1>
+      <p>Solusi laundry untuk pakaian dan berbagai kebutuhan cucian Anda.</p>
+      <p class="chips">
+        <span>Laundry Kiloan</span>
+        <span>Laundry Satuan</span>
+        <span>Express</span>
+        <span>Antar Jemput</span>
+      </p>
+    </div>
+
+    <div class="hero-img reveal">
+      <!-- FOTO ASLI: tampak depan laundry -->
+      <img src="images/laundry-depan.jpg" alt="Tampak depan Berkah Laundry" class="main">
+      <img src="images/laundry-dalam.jpg" alt="Bagian dalam Berkah Laundry" class="sub">
+    </div>
+  </section>
+
+  <!-- ===== KENAPA BERKAH LAUNDRY ===== -->
+  <section class="sec soft" id="kenapa">
+    <h2 class="reveal">Kenapa Berkah Laundry?</h2>
+    <div class="why" id="why"></div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section class="sec" id="tentang">
+    <div class="about">
+      <div class="about-img reveal">
+        <!-- FOTO ASLI: bagian dalam laundry -->
+        <img src="images/laundry-dalam.jpg" alt="Bagian dalam Berkah Laundry">
+      </div>
+      <div class="reveal">
+        <h2>Tentang Berkah Laundry</h2>
+        <p>
+          Berkah Laundry hadir untuk membantu kebutuhan laundry Anda dengan layanan yang bersih, rapi, dan wangi.
+          Kami menyediakan berbagai pilihan layanan mulai dari laundry kiloan, laundry satuan, hingga layanan express.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    ===== CARA MENGGANTI FOTO LAYANAN =====
+    Setiap kartu di bawah punya <img src="images/NAMA-FILE.jpg">.
+    Cukup simpan foto Anda di folder images/ dengan nama file yang sama (timpa file lama).
+    Selama foto belum ada, tampil placeholder otomatis.
+  -->
+
+  <!-- ===== LAYANAN ===== -->
+  <section class="sec cyan" id="layanan">
+
+    <h2 class="reveal">Layanan Laundry Kiloan</h2>
+    <div class="grid">
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO CUCI KERING LIPAT DI SINI -->
+          <img src="images/cuci-kering-lipat.jpg" alt="Laundry Cuci Kering Lipat">
+        </div>
+        <div class="service-content">
+          <h3>Cuci Kering Lipat</h3>
+          <p class="price">Rp5.000/Kg</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO CUCI + SETRIKA DI SINI -->
+          <img src="images/cuci-setrika.jpg" alt="Laundry Cuci + Setrika">
+        </div>
+        <div class="service-content">
+          <h3>Cuci + Setrika</h3>
+          <p class="price">Rp15.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SETRIKA SAJA DI SINI -->
+          <img src="images/setrika.jpg" alt="Setrika Saja">
+        </div>
+        <div class="service-content">
+          <h3>Setrika Saja</h3>
+          <p class="price">Rp7.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO KURANG DARI 1 KG DI SINI (file: kurang-1kg.jpg) -->
+          <img src="images/kurang-1kg.jpg" alt="Laundry Kurang dari 1 Kg">
+        </div>
+        <div class="service-content">
+          <h3>Kurang dari 1 Kg</h3>
+          <p class="price">Rp5.000/lembar</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO PER LEMBAR DI SINI (file: per-lembar.jpg) -->
+          <img src="images/per-lembar.jpg" alt="Laundry Per Lembar">
+        </div>
+        <div class="service-content">
+          <h3>Per Lembar</h3>
+          <p class="price">Rp10.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+    </div>
+    <p class="note">Untuk pakaian yang tidak sampai 1 kg, dikenakan tarif per lembar sesuai ketentuan laundry.</p>
+
+    <h2 class="reveal" style="margin-top:3.5rem">Layanan Laundry Satuan</h2>
+    <div class="grid">
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO BED COVER DI SINI -->
+          <img src="images/bed-cover.jpg" alt="Laundry Bed Cover Kecil">
+        </div>
+        <div class="service-content">
+          <h3>Bed Cover Kecil</h3>
+          <p class="price">Rp.35.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SEPATU DI SINI -->
+          <img src="images/sepatu.jpg" alt="Laundry Sepatu">
+        </div>
+        <div class="service-content">
+          <h3>Sepatu</h3>
+          <p class="price">Rp35.000</p>
+          <span class="est">Estimasi: 3 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO KARPET DI SINI -->
+          <img src="images/karpet.jpg" alt="Laundry Karpet Biasa">
+        </div>
+        <div class="service-content">
+          <h3>Karpet Biasa</h3>
+          <p class="price">Rp25.000/M2</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SEPREI DI SINI -->
+          <img src="images/seprei.jpg" alt="Laundry Seprei Set No.3">
+        </div>
+        <div class="service-content">
+          <h3>Seprei Set No.3</h3>
+          <p class="price">Rp20.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SPRINGBED DI SINI -->
+          <img src="images/springbed.jpg" alt="Laundry Springbed No.3">
+        </div>
+        <div class="service-content">
+          <h3>Springbed No.3</h3>
+          <p class="price">Rp300.000</p>
+          <span class="est">Estimasi: 1 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO BANTAL DI SINI -->
+          <img src="images/bantal.jpg" alt="Laundry Bantal Sedang">
+        </div>
+        <div class="service-content">
+          <h3>Bantal Sedang</h3>
+          <p class="price">Rp30.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO BONEKA KECIL DI SINI -->
+          <img src="images/boneka-kecil.jpg" alt="Laundry Boneka Kecil">
+        </div>
+        <div class="service-content">
+          <h3>Boneka Kecil</h3>
+          <p class="price">Rp15.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO BONEKA SEDANG DI SINI -->
+          <img src="images/boneka-sedang.jpg" alt="Laundry Boneka Sedang">
+        </div>
+        <div class="service-content">
+          <h3>Boneka Sedang</h3>
+          <p class="price">Rp.20.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO BONEKA BESAR DI SINI -->
+          <img src="images/boneka-besar.jpg" alt="Laundry Boneka Besar">
+        </div>
+        <div class="service-content">
+          <h3>Boneka Besar</h3>
+          <p class="price">Rp25.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO GORDEN DI SINI -->
+          <img src="images/gorden.jpg" alt="Laundry Gorden">
+        </div>
+        <div class="service-content">
+          <h3>Gorden</h3>
+          <p class="price">Rp15.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SELIMUT SEDANG DI SINI -->
+          <img src="images/selimut-sedang.jpg" alt="Laundry Selimut Sedang">
+        </div>
+        <div class="service-content">
+          <h3>Selimut Sedang</h3>
+          <p class="price">Rp15.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO SELIMUT BESAR DI SINI -->
+          <img src="images/selimut-besar.jpg" alt="Laundry Selimut Besar">
+        </div>
+        <div class="service-content">
+          <h3>Selimut Besar</h3>
+          <p class="price">Rp20.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO TAS DI SINI -->
+          <img src="images/tas.jpg" alt="Laundry Tas">
+        </div>
+        <div class="service-content">
+          <h3>Tas</h3>
+          <p class="price">Rp15.000</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-image">
+          <!-- GANTI FOTO JAS/GAUN DI SINI -->
+          <img src="images/jas-gaun.jpg" alt="Laundry Jas dan Gaun">
+        </div>
+        <div class="service-content">
+          <h3>Jas/Gaun</h3>
+          <p class="price">Rp25.000 setrika + hanger</p>
+          <span class="est">Estimasi: 2 hari</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== DAFTAR HARGA ===== -->
+  <section class="sec" id="harga">
+    <h2 class="reveal">Daftar Harga Berkah Laundry</h2>
+    <div class="tables">
+      <div class="pbox reveal">
+        <span class="badge">KILOAN</span>
+        <div id="p-kiloan"></div>
+      </div>
+      <div class="pbox reveal">
+        <span class="badge o">SATUAN</span>
+        <div id="p-satuan"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPRESS ===== -->
+  <section class="sec express" id="express">
+    <h2 class="reveal">⚡ Layanan Express</h2>
+    <div class="exp">
+
+      <div class="ex reveal">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="42"/>
+          <path d="M50 50V22M50 50l18 10"/>
+        </svg>
+        <h3>3 JAM</h3>
+        <b>Rp15.000</b>
+      </div>
+
+      <div class="ex reveal">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="42"/>
+          <path d="M50 50V22M50 50H78"/>
+        </svg>
+        <h3>6 JAM</h3>
+        <b>Rp12.000</b>
+      </div>
+
+      <div class="ex reveal">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="42"/>
+          <path d="M50 50V22M50 50L30 72"/>
+        </svg>
+        <h3>9 JAM</h3>
+        <b>Rp10.000</b>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ANTAR JEMPUT ===== -->
+  <section class="sec" id="jemput">
+    <div class="pickup reveal">
+      <h2>🚚 GRATIS JEMPUT-ANTAR</h2>
+      <div class="terms">
+        <div>Minimal transaksi <b>Rp50.000</b></div>
+        <div>Laundry dengan layanan <b>minimal 5 kg</b></div>
+      </div>
+      <a class="wa-big" href="https://wa.me/6282396282160" target="_blank" rel="noopener">
+        <small>🚚 WhatsApp Antar Jemput</small>
+        <b>082396282160</b>
+        <em>Klik nomor untuk menghubungi</em>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ESTIMASI PENGERJAAN ===== -->
+  <section class="sec soft" id="estimasi">
+    <h2 class="reveal">Estimasi Pengerjaan</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section class="sec" id="galeri">
+    <h2 class="reveal">Galeri Berkah Laundry</h2>
+    <div class="masonry">
+      <figure class="reveal">
+        <img src="images/laundry-depan.jpg" alt="Tampak depan Berkah Laundry">
+        <figcaption>Tampak depan</figcaption>
+      </figure>
+      <figure class="reveal">
+        <img src="images/laundry-rak.jpg" alt="Rak pakaian laundry">
+        <figcaption>Rak laundry</figcaption>
+      </figure>
+      <figure class="reveal">
+        <img src="images/laundry-dalam.jpg" alt="Bagian dalam Berkah Laundry">
+        <figcaption>Bagian dalam</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section class="sec cyan" id="kontak">
+    <h2 class="reveal">Hubungi Berkah Laundry</h2>
+    <div class="contact">
+      <a class="cc reveal" href="https://wa.me/62895628970602" target="_blank" rel="noopener">
+        <small>WhatsApp</small>
+        <b>0895628970602</b>
+      </a>
+      <a class="cc reveal" href="https://wa.me/6282396282160" target="_blank" rel="noopener">
+        <small>WhatsApp Antar Jemput</small>
+        <b>082396282160</b>
+      </a>
+      <div class="cc wide reveal">
+        <small>🕗 Jam Buka</small>
+        <b>Setiap Hari, 08.00 – 22.00 WITA</b>
+      </div>
+      <div class="cc wide reveal">
+        <small>📍 Alamat</small>
+        <b class="addr">Jl. Mannuruki Raya No.2, Mannuruki, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 9022</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="sec soft" id="faq">
+    <h2 class="reveal">Pertanyaan yang Sering Diajukan</h2>
+    <div class="faq" id="faqbox"></div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <img src="images/logo-berkah-laundry.png" alt="Logo Berkah Laundry">
+    <p><b>BERSIH, RAPI, WANGI</b></p>
+    <p>Jl. Mannuruki Raya No.2, Mannuruki, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 9022</p>
+    <p>🕗 Buka setiap hari, 08.00 – 22.00 WITA</p>
+    <p>
+      WhatsApp: <a href="https://wa.me/62895628970602" target="_blank" rel="noopener">0895628970602</a>
+      · Antar Jemput: <a href="https://wa.me/6282396282160" target="_blank" rel="noopener">082396282160</a>
+    </p>
+  </footer>
+
+  <!-- ===== LIGHTBOX & TOMBOL KE ATAS ===== -->
+  <div id="lb">
+    <button id="lbx" aria-label="Tutup">✕</button>
+    <img alt="">
+  </div>
+  <button id="top" aria-label="Kembali ke atas">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
