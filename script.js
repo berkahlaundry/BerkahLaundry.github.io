@@ -66,7 +66,7 @@ const WHY = [
   ['Rapi', 'Pakaian ditangani dengan rapi.', 'shirt', '#1fb8c9,#6aebe3'],
   ['Wangi', 'Hasil laundry yang wangi dan fresh.', 'flower', '#f02a1f,#ff8a5a'],
   ['Express', 'Tersedia layanan express.', 'bolt', '#ffb400,#ffc94d'],
-  ['Antar Jemput', 'Tersedia layanan jemput-antar dengan ketentuan berlaku.', 'van', '#2e8b3d,#1fb8c9']
+  ['Antar Jemput', 'Tersedia layanan antar-jemput dengan ketentuan berlaku.', 'van', '#2e8b3d,#1fb8c9']
 ];
 
 document.getElementById('why').innerHTML = WHY
@@ -85,7 +85,7 @@ document.getElementById('why').innerHTML = WHY
 const FAQ = [
   [
     'Jam berapa Berkah Laundry buka?',
-    'Kami buka setiap hari, mulai pukul 08.00 pagi sampai 23.00 malam WITA.'
+    'Kami buka setiap hari, mulai pukul 08.00 pagi sampai 22.00 malam WITA.'
   ],
   [
     'Apakah tersedia layanan antar jemput?',
